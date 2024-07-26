@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Turnos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listagem de Turnos:</h1>
+    <a class="btn btn-outline-warning" asp-controller="Medicos" asp-action="Index">Manhã ☀</a>
+    <a class="btn btn-outline-danger" asp-controller="Medicos" asp-action="IndexTarde">Tarde 🌇</a>
+    <a class="btn btn-outline-primary" asp-controller="Medicos" asp-action="IndexNoite">Noite ☀</a>
+</div>
+<br />
+<a class="btn btn-danger" asp-controller="Home" asp-action="Index">Voltar</a>
